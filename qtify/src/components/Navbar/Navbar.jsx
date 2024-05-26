@@ -13,7 +13,7 @@ return(
         <Link to="/">
           <Logo/>  
         </Link>
-        <Search placeholder="Search"
+        <Search placeholder="search"
         />
         <Button>Give Feedback</Button>
  </nav>
