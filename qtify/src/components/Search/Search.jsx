@@ -1,8 +1,6 @@
 import React from "react";
 import styles from "./Search.module.css";
-import {ReactComponent as SearchIcon} from "../../assets/SearchIcon.svg";
-
-function Search({placeholder}){
+import SearchIcon from "@mui/icons-material/SearchIcon";
     return(
         <div style={{position:"relative"}}>
         <form className={styles.wrapper}  >
