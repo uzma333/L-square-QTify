@@ -13,7 +13,7 @@ return(
         <Link to="/">
           <Logo/>  
         </Link>
-        <Search placeholder="search"
+        <Search placeholder="Search a album of your choice"
         />
         <Button>Give Feedback</Button>
  </nav>
