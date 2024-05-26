@@ -1,6 +1,10 @@
 import React from "react";
 import styles from "./Search.module.css";
 import SearchIcon from "@mui/icons-material/SearchIcon";
+
+
+
+function Search(placeholder){
     return(
         <div style={{position:"relative"}}>
         <form className={styles.wrapper}  >
