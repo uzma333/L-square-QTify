@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "./components/Navbar/Navbar";
 import StyledEngineProvider from "@mui/material/StyledEngineProvider";
 import './App.css';
+import Hero from "./components/Hero/Hero";
 
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
     
   <StyledEngineProvider injectFirst>
     <Navbar />
+    <Hero/>
   </StyledEngineProvider>
       
    
