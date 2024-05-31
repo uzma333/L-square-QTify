@@ -14,6 +14,12 @@
   }
   .toggleText {
     color:green;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    width:85px;
+    height: 30px;
   }
   .topalbumWrapper {
     margin-top: 18px;
