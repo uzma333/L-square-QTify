@@ -21,7 +21,7 @@ const Card = ({ data, type }) => {
                 </div>
               </div>
               <div className={styles.topTitle}>
-                <p>{title}</p>
+                <p style={{margin:1,padding:5}}>{title}</p>
               </div>
             </div>
           </Tooltip>
@@ -34,11 +34,11 @@ const Card = ({ data, type }) => {
             <div className={styles.card}>
               <img src={image} alt="song" loading="lazy" />
               <div className={styles.banner}>
-                <Chip label={`${likes} Likes`} size="small" className="chip" />
+                <Chip label={`${likes} Likes`} size="small" className={styles.chip} />
               </div>
             </div>
             <div className={styles.topTitle}>
-              <p>{title}</p>
+              <p style={{margin:1,padding:5}}>{title}</p>
             </div>
           </div>
         );
