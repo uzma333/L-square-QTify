@@ -6,7 +6,7 @@ import Carousel from "../Carousel/Carousel";
 
 const TopAlbums = () => {
   const [data, setData] = useState([]);
-  const [toggle, setToggle] = useState(false);
+  const [toggle, setToggle] = useState(true);
 
   const fetchTopAlbums = async () => {
     try {

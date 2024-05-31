@@ -6,7 +6,7 @@ import Carousel from "../Carousel/Carousel";
 
 const NewAlbums = () => {
   const [data, setData] = useState([]);
-  const [toggle, setToggle] = useState(false);
+  const [toggle, setToggle] = useState(true);
 
   const fetchNewAlbums = async () => {
     try {
@@ -32,7 +32,7 @@ const NewAlbums = () => {
       <div className={styles.newHeader}>
         <h3>New Albums</h3>
         <h3 className={styles.newToggletext} onClick={handleToggle}>
-          {toggle ? "Show All" : "Collapse"}
+          {toggle ? "Show all" : "Collapse"}
         </h3>
       </div>
       <div className={styles.newalbumsWrapper}>
